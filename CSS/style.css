@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline    ;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.head {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 55px;
+    background: #0f0838; opacity: 100%;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-box {
+    height: 64vh !important;
+    margin: 50px auto 0;
+    overflow: hidden;
+    background-size: cover;
+    padding: 1hv;
+    }
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.texto {
+    
+
+    
+    position: absolute;
+    text-align: center;
+    padding: 0px 250px;
+    top: 250px;
+    color: #ffffff;
+}
+
+
+
+.texto h2 {
+    font-size: 45px;
+    margin-bottom: 55px;
+
+
+
+    margin-bottom: 20px;
+    font-size: 70px;
+    color: #eeeeee;
+    padding: -50px 400px;
+
+}
+
+.slider-box img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+
+}
+
+@media(max-width: 991 px) {
+    
+    body {
+        padding: 30px;
+    }
+    .slider-box {
+        width: 100%;
+    }
+    .texto {
+        top: 50px;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    display:flex;
+    margin-right: 20px;
+    padding: 0 0px;
+    width: 100%;
+    z-index: 10;
+
+}
+
+.logo {
+    margin-left: 30px;
+    padding-top: 3%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #0f0838;
+    text-transform: uppercase;    
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20 px;
+    background: #0f0838; opacity: 100%;
+    width: 100%;
+    z-index: 10;
+    margin-bottom: -3%;
+}
+
+.navbar a:hover {
+    background: #9c27b0;
+}
+
+
+.title {
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #eeeeee;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #eeeeee;
+    padding: 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+    padding: 20px 300px;;
+
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #0f0838;
+}
+
+.box-container {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+
+    height: 11rem;
+    width: 20rem;
+    background: #04041b;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(51, 50, 50, 0.9);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    padding: 23px 1px;
+    font-size: 40px;
+    color: #9c27b0;
+}
+
+.box-container .box p {
+    top: 10px;
+    padding: 1px 10px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(Img/Carol\ fondo\ azul.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ventana emergente
+
+.modal {
+    background-image: url(Img/Carol.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #3d3d3dbd;
+    display: flex;
+}
+
+
+.modal container {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+}
+
+
+.title1 {
+    position: fixed;
+    top: 380px;
+    left: -450px;
+    right: 0px;
+    bottom: 50px;
+    text-align: center;
+    font-size: 6rem;
+    color: #0f0838;
+}
+
+.paragraph {
+    
+    position: fixed;
+    top: 520px;
+    left: -400px;
+    right: 50px;
+    bottom: 50px;
+    font-size: 1.5rem;
+    color: #0f0838;
+
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.modal-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: fixed;
+    opacity: 100%;
+    top: 0px;
+    left: 1150px;
+    right: 150px;
+    bottom: 50px;
+
+    width: 500%;
+    max-width: 1100px;
+}
+
+
+.btns {
+    display: flex;
+    gap: 15px;
+}
+
+.btns > a {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: .3rem;
+    color: #555252;
+    font-weight: 400;
+}
+
+
+.btns .open-view {
+    color: #222;
+    background-color: #4b4444;
+    border: solid thin gray;
+}
+
+.open-guide {
+    background-color: #494444;
+
+.close {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+estilos modelado /* estilos de las opciones de servicios */
+
+.container-m {
+    
+    width: 10px;
+    height: 10px;
+    display: flex;
+    max-width: 100px;
+    justify-content: center;
+}
+
+.card {
+   
+    display: flex;
+
+    width: 100%x;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #eeeeee;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+
+}
+
+.card img {
+    max-width: 10%;
+    width: 140px;
+    height: 100px;
+}
+
+.card contenido-m {
+    padding: 25px;
+    text-align: center;
+
+}
+
+.card contenido-m p {
+    line-height: 1.5;
+    color: #6a6a6a;
+
+}
+
+
+.card contenido-m h3 {
+    color: #9c27b0;
+
+    font-weight: 400;
+    margin-bottom: 25px;
+    
+}
+
+.card contenido-m a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #9c27b0;
+    border: 1px solid #9c27b0;
+    border-radius: 4px;
+    transition: all 400ms ease;
+
+}
+
+
+.card contenido-m a:hover {
+    background: #9c27b0;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iframe {
+    padding: 150% 10px;
+    margin: 35px;
+    margin-top: 150%;
+    top: 15px;
+}
+
+
+.form-register {
+    width: 400px;
+    background: #0f0838;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;    
+}
+
+.controls {
+    width: 100%;
+    background: #0f0838;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #6a6a6a;
+    font-size: 18px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #9c27b0;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+.footer:hover {
+    background: #9c27b0;
+    color: #1d1515;
+}
